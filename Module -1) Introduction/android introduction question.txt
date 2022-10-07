@@ -1,0 +1,30 @@
+1.What is software?
+==>Software is a collection of computer programs and related data that provide the instructions for
+telling a computer what to do and how to do it. 
+--------------------------------------------------------------------------------------------------
+2.Types of application 
+==>There are three type of application
+  A.Mobile app.
+  B.Desktop app.
+  C.Web app.
+--------------------------------------------------------------------------------------------------
+3. What is mobile application
+==> Mobile app is a software application developed specifically for mobile device such as a phone
+    table, or watch
+----------------------------------------------------------------------------------------------------
+4. Difference between mobile application and web application 
+==>Mobile application:-Faster than  web apps
+			    -Greater functionality as they have access to system resource
+			    -can work offline
+			    -Safe and secure native apps must first be approved by the app store
+			    -Easier to buid due to the availability of developer tools,interface elements and SDKs
+
+===>Web application:-Do not need to be downloaded or installed—web apps function in-browser
+			  -Easy to maintain—they have a common codebase regardless of mobile platform	
+			  -Will update themselves
+			  -Quicker and easier to build than mobile apps
+                    -Do not require app store approval, so can be launched quickly		 
+		
+-----------------------------------------------------------------------------------------------------------
+5. Who developed Android
+==>Andy Rubin,Nick sears,Rich Miner
