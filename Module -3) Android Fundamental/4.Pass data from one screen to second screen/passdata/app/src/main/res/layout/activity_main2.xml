@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/verifiction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Your Detail"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:id="@+id/name_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verifiction_text"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name::    "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/username_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/username_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_username_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gender_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/gender_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_gender_id"
+            android:text="gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/phone_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_phone_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/age_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/age_seek_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_age_seek_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/work_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/work_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_work_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/address_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/work_layout_id"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/address_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:: "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/V_address_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
