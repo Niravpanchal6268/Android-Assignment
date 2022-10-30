@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:hint="enter text"
+        android:layout_marginTop="55dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/reverse_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="reverse string"
+        android:layout_marginHorizontal="40sp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+
+        />
+
+
+</LinearLayout>

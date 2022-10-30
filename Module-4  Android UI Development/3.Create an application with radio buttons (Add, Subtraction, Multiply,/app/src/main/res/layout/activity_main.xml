@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="55dp"
+        android:hint="enter number"
+        android:inputType="number"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edit2_id"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="55dp"
+        android:hint="enter number"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:id="@+id/radioG_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/add_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addtion(+)"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/sub_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="subtraction(-)"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/multi_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="multiplication(*)"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/divi_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="division(/)"
+            android:textSize="25dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ans_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ans"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</LinearLayout>
