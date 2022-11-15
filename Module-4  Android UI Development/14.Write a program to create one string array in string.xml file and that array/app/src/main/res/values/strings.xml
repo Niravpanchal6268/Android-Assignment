@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">String to arraylistview</string>
+
+    <string-array name="numbers">
+        <item name="no">one</item>
+        <item name="no">two</item>
+        <item name="no">three</item>
+        <item name="no">four</item>
+        <item name="no">five</item>
+        <item name="no">sex</item>
+        <item name="no">seven</item>
+        <item name="no">eight</item>
+        <item name="no">nine</item>
+        <item name="no">ten</item>
+
+    </string-array>
+</resources>

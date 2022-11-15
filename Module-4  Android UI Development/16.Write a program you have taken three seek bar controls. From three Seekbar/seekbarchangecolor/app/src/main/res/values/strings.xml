@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">seekbar change color</string>
+    <array name="color"
+        >
+        <item>#219806</item>
+        <item>#F44336</item>
+        <item>#FFEB3B</item>
+
+    </array>
+</resources>
